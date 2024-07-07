@@ -1,0 +1,13 @@
+/* Carousel.css */
+.slick-dots {
+  bottom: 20px; /* Adjust as necessary to position dots at the bottom of the images */
+}
+
+.slick-dots li button:before {
+  font-size: 12px; /* Adjust size of dots if necessary */
+  color: white; /* Change color of dots to white */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white; /* Ensure active dot is also white */
+}
